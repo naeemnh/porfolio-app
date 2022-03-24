@@ -9,25 +9,40 @@ body {
 }
 h1 {
 	margin: auto;
-	/* text-align: center; */
 }
 .logo {
 	padding: 0.2em;
 	font-size: 22px;
 	font-family: "simplified_arabic_fixedRg", sans-serif;
 }
+
+input {
+	box-sizing: border-box;
+	border: none;
+	font-size: 22px;;
+	font-family: "simplified_arabic_fixedRg", sans-serif;
+}
+
 .logo:after {
 	content: "_";
-	animation: blink 1.25s steps(2) infinite;
+	animation: blink 1s step-end infinite;
 }
 
 @keyframes blink {
-	0% {
-		opacity: 0;
-	}
+  from,
+  to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
 }
 @-webkit-keyframes blink {
-	0% {
-		opacity: 0;
+	from,
+	to {
+	  opacity: 0;
 	}
-}
+	50% {
+	  opacity: 1;
+	}
+  }
