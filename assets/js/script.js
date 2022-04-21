@@ -1,4 +1,5 @@
 input = document.querySelector('input');
+form = document.querySelector('form');
 inputWidth = 4;
 input.style.width = inputWidth + 'px';
 

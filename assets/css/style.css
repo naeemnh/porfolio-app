@@ -16,6 +16,11 @@ h1 {
 	font-family: "simplified_arabic_fixedRg", sans-serif;
 }
 
+form {
+	display: inline;
+	margin-left: -14px; 
+}
+
 input {
 	box-sizing: border-box;
 	border: none;
@@ -26,6 +31,7 @@ input {
 .logo:after {
 	content: "_";
 	animation: blink 1s step-end infinite;
+	margin-left: -14px;
 }
 
 @keyframes blink {

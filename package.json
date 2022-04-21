@@ -1,0 +1,27 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://naeemnh@bitbucket.org/naeemnh/first-draft.git"
+  },
+  "keywords": [],
+  "author": "Naeem Hussain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/naeemnh/first-draft/issues"
+  },
+  "homepage": "https://bitbucket.org/naeemnh/first-draft#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
