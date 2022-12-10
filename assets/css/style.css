@@ -14,11 +14,12 @@ h1 {
 	padding: 0.2em;
 	font-size: 22px;
 	font-family: "simplified_arabic_fixedRg", sans-serif;
+	display: inline-block;
 }
 
 form {
 	display: inline;
-	margin-left: -14px; 
+	margin-left: -7px;
 }
 
 input {
@@ -26,29 +27,32 @@ input {
 	border: none;
 	font-size: 22px;;
 	font-family: "simplified_arabic_fixedRg", sans-serif;
+	/* caret-color: underscore; */
 }
 
-.logo:after {
-	content: "_";
+.cursor {
+	width: 10px;
+	display: inline-block;
 	animation: blink 1s step-end infinite;
-	margin-left: -14px;
+	margin-left: -7px;
+	border-bottom: 2px solid black;
 }
 
 @keyframes blink {
   from,
   to {
-    opacity: 0;
+    border-color: transparent;
   }
   50% {
-    opacity: 1;
+    border-color: black;
   }
 }
 @-webkit-keyframes blink {
 	from,
 	to {
-	  opacity: 0;
+	  border-color: transparent;
 	}
 	50% {
-	  opacity: 1;
+	  border-color: black;
 	}
   }
